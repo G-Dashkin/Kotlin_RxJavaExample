@@ -40,11 +40,7 @@ class Example3Activity : AppCompatActivity() {
         Log.d("MyLog", disposable2.method())
         Log.d("MyLog", disposable2.body().toString())
         Log.d("MyLog", disposable2.toString())
-        disposable2.run {
-            Log.d("MyLog", this.toString())
-            Log.d("MyLog", this.body().toString())
-            Log.d("MyLog", this.headers().toString())
-        }
+
 
 
 
