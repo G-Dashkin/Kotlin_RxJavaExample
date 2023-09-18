@@ -10,6 +10,7 @@ import com.example.kotlin_rxjavaexample.Example1.Example1Activity
 import com.example.kotlin_rxjavaexample.Example2.Example2Activity
 import com.example.kotlin_rxjavaexample.Example3.ApiFactory
 import com.example.kotlin_rxjavaexample.Example3.Example3Activity
+import com.example.kotlin_rxjavaexample.Example4.Example4Activity
 import com.google.gson.Gson
 import io.reactivex.rxjava3.schedulers.Schedulers
 import java.util.concurrent.TimeUnit
@@ -32,6 +33,7 @@ class MainActivity : AppCompatActivity() {
         btmExample1.setOnClickListener { startActivity(Intent(this, Example1Activity::class.java)) }
         btmExample2.setOnClickListener { startActivity(Intent(this, Example2Activity::class.java)) }
         btmExample3.setOnClickListener { startActivity(Intent(this, Example3Activity::class.java)) }
+        btmExample4.setOnClickListener { startActivity(Intent(this, Example4Activity::class.java)) }
     }
 
 
